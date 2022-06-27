@@ -139,6 +139,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    align-items: center;
     background-color: var(--cv-color);
 }
 
@@ -517,9 +518,6 @@ header {
     header {
         padding: 0px 80px;
     }
-    .nav-bar {
-        column-gap: 1.5rem;
-    }
 }
 
 @media (max-width:863px) {
@@ -573,6 +571,12 @@ header {
     }
     .cover-footer {
         margin: 20px 20px;
+    }
+    .home-text h1 {
+        font-size: 1.3rem;
+    }
+    .description {
+        font-size: .7rem;
     }
 }
 
@@ -802,6 +806,9 @@ header {
 }
 
 @media (max-width:360px) {
+    header {
+        padding: 0px 20px;
+    }
     .home-text {
         margin-left: 20px;
     }
