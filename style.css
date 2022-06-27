@@ -512,6 +512,19 @@ header {
     .cover-footer {
         margin: 20px 80px;
     }
+    .footer-box {
+        margin: 20px 80px;
+        column-gap: 3rem;
+    }
+    .footer-box-text .box-heading {
+        font-size: .8rem;
+    }
+    .footer-box-text .description {
+        font-size: .7rem;
+    }
+    .bottom-footer-container a {
+        font-size: .8rem;
+    }
 }
 
 @media (max-width:968px) {
@@ -547,6 +560,19 @@ header {
     }
     .home-text {
         margin-left: 40px;
+    }
+    .footer-box {
+        margin: 20px 60px;
+        column-gap: 2.8rem;
+    }
+    .footer-box-text .box-heading {
+        font-size: .7rem;
+    }
+    .footer-box-text .description {
+        font-size: .6rem;
+    }
+    .bottom-footer-container a {
+        font-size: .7rem;
     }
 }
 
@@ -619,6 +645,19 @@ header {
     }
     .item-cv-img img {
         width: 300px;
+    }
+    .footer-box {
+        margin: 20px 50px;
+        column-gap: 2.5rem;
+    }
+    .footer-box-text .box-heading {
+        font-size: .6rem;
+    }
+    .footer-box-text .description {
+        font-size: .5rem;
+    }
+    .bottom-footer-container a {
+        font-size: .6rem;
     }
 }
 
