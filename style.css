@@ -821,4 +821,7 @@ header {
     .box-container {
         max-width: 350px;
     }
+    .bottom-footer-container a {
+        font-size: .4rem;
+    }
 }
